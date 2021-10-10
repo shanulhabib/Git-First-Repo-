@@ -1,0 +1,38 @@
+.editor-container {
+  box-shadow: 6px -1px 14px 1px rgba(0, 0, 0, 0.53);
+  margin: 100px auto;
+  width: 38%;
+  padding: 51px 0px;
+  text-align: center;
+}
+
+label,
+textarea {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+textarea {
+  padding: 10px;
+  max-width: 100%;
+  line-height: 1.5;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 1px #999;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+Button {
+  margin: 10px !important;
+}
+
+.Card {
+  width: 80% !important;
+  margin: 10px auto !important;
+  margin: 10px auto;
+}
