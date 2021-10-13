@@ -11,10 +11,10 @@ class App extends Component {
   render() {
     return (
       <>
-      <StatelessComponent/>
+        <StatelessComponent />
         <Router>
-          <div>
-            <ul>
+          <div style={{ margin: "0 auto" }}>
+            <ul style={{ color: "blue" }}>
               <li>
                 <Link to="/">Editor</Link>
               </li>
