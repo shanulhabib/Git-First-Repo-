@@ -5,11 +5,13 @@ import Covid from "./components/Covid/Covid";
 import Editor from "./components/Editor/Editor";
 import BurgerBuilder from "./components/BurgerBuilder/BurgerBuilder";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import StatelessComponent from "./components/StatelessComponent";
 
 class App extends Component {
   render() {
     return (
       <>
+      <StatelessComponent/>
         <Router>
           <div>
             <ul>
